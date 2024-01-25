@@ -1,0 +1,25 @@
+#textOverflow{
+    white-space: nowrap;
+    width: 150px;
+    border: 1px dotted red;
+    overflow:hidden;
+    text-overflow: clip;
+}
+
+#wordWrap{
+    width: 200px;
+    border: 2px solid black;
+    word-wrap: break-word;
+}
+
+#wordBreak{
+    width: 250px;
+    border: 3px dashed purple;
+    word-break: break-all;
+}
+
+#writingMode{
+    writing-mode: vertical-lr;
+    color: blue;
+    text-shadow: 2px 2px 5px rgb(255, 0, 0);
+}
