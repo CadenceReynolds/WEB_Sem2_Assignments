@@ -1,0 +1,11 @@
+div{
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+}
+
+p{
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+    font-weight: lighter;
+ }
