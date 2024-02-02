@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-
-    <body>
-
-        <input type="text" 
-        onkeydown="keyDownHandler()"
-        onmouseover="mouseOverHandler">
-
-        <p id="demo"></p>
-
-        <script src="script.js"></script>
-    </body>
-
-</html> 
+<head>
+    <script src="Scripts.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <select id="onChange" onchange = "document.getElementById('Choice').innerHTML = 'Good Choice'">
+        <option value="Minecraft">Minecraft</option>
+        <option value="Raft">Raft</option>
+        <option value="Trashnite">Trashnite</option>
+        <option value="COD">COD</option>
+      </select>
+      <p id="Choice"></p>
+   <button type="button" onmouseover="DoNot()" id="DoNot" onmouseout="Thanks()" onclick="poke()">CLICK ME!</button>
+   <p id="Words" onload="Greet()"></p>
+   <input type="text" onkeydown="Talk()">
+   <div id=""><p></p></div>
+</body>
+</html>
