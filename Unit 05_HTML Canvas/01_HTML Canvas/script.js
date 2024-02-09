@@ -45,3 +45,18 @@ function drawLine() {
     // Stroke it (Do the Drawing)
     ctx.stroke();
 }
+
+function drawRect() {
+    let x = +document.getElementById("UpperLeftX").value;
+    let y = +document.getElementById("UpperLeftY").value;
+    let width = +document.getElementById("RectWidth").value;
+    let height = +document.getElementById("RectHeight").value;
+
+    const canvas = document.getElementById("myCanvas3")
+    const ctx = canvas.getContext("2d");
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.beginPath();
+    ctx.rect(x, y, width, height);
+    ctx.stroke();
+
+}
