@@ -1,0 +1,22 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    transition: width 5s, height 3s, transform 2s;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    transition: height 3s;
+}
+
+img:hover{
+    height: 350px;
+}
+
+div:hover {
+    width: 200px;
+    height: 350px;
+    transform: rotate(360deg);
+}
