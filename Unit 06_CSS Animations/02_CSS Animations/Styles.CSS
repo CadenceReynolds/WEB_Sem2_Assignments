@@ -1,0 +1,13 @@
+body{
+    height: 760px;
+    width: 100%;
+    background-color: rgb(91, 214, 255);
+    animation-name: Sky;
+    animation-duration: 86400s;
+    animation-iteration-count: 365;
+}
+
+@keyframes Sky {
+    from {background-color: rgb(91, 214, 255);}
+    to {background-color: rgb(0, 0, 63);}
+}
