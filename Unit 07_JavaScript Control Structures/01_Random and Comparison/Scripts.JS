@@ -1,7 +1,7 @@
 function RollDie(){
     var diceElement = document.getElementById("Die");
     // diceElement.src = "images/dice2.jpg";
-    let randomm = Math.random() * 6 + 1;
+    let random = Math.random() * 6 + 1;
     random = Math.trunc(random);
 
     if(random === 1){
