@@ -6,7 +6,7 @@ switch(month){
         document.getElementById("month").innnerHTML = "janurary";
         break;
     case 1:
-        document.getElementById("month").innnerHTML = "janurary";
+        document.getElementById("month").innnerHTML = "Feburary";
         break;
     case 2:
         document.getElementById("month").innnerHTML = "janurary";
