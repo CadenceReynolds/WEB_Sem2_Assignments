@@ -1,0 +1,22 @@
+.Header { grid-area: He; }
+.Menu { grid-area: Me; }
+.Main { grid-area: Ma; }
+.ScoreBoard { grid-area: right; }
+.Foot { grid-area: Fo; }
+.Doc {
+  display: grid;
+  grid-template-areas:
+    'He He He He He He'
+    'Me Ma Ma Ma right right'
+    'Me Fo Fo Fo Fo Fo';
+  gap: 10px;
+  padding: 10px;
+
+}
+
+.Doc > div {
+    background-color: rgba(209, 209, 209, 0.8);
+    text-align: center;
+    padding: 20px 0;
+
+  }
