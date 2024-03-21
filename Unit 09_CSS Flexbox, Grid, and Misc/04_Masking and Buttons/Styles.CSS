@@ -1,0 +1,7 @@
+.BlankPhoenix{
+    -webkit-mask-image: url(BlankBlackPhoenix.png);
+    mask-image: url(BlankBlackPhoenix.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
