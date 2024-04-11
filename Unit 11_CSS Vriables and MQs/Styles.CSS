@@ -1,0 +1,10 @@
+
+img{
+    display: block;
+}
+
+@media screen and (max-height: 500px) {
+    img{
+        display: inline;
+    }
+}
