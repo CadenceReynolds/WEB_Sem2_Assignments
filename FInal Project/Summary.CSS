@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+.MainDiv {
+    width: 1050px;
+    overflow: wrap;
+}
+
+.Header {
+    position: relative;
+}
+
+img{
+    width: 500px;
+    height: 350px;
+}

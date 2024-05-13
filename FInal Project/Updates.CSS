@@ -1,0 +1,24 @@
+  table,
+  th,
+  td {
+      border: 1px solid;
+      text-align: center;
+      vertical-align: center;
+      background-color: rgba(7, 7, 7, 0.212);
+  }
+
+  table {
+      width: 75%;
+  }
+
+  th:hover,
+  td:hover {
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+
+  }
+
+  .MainDiv {
+      width: 1050px;
+      overflow: wrap;
+  }
